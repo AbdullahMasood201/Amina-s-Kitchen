@@ -1,0 +1,6 @@
+{
+  "name": "Amina's Kitchen",
+  "description": "Homemade food service operating in Islamabad, Pakistan. Offering comforting everyday meals, weekly and monthly menu selections, and homemade desserts with convenient WhatsApp ordering.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,2413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amina's Kitchen | Homemade Food in Islamabad</title>
+  <meta name="description" content="Amina's Kitchen provides comforting, freshly prepared homemade food in Islamabad. Explore our daily and rotating monthly menus, homemade desserts, and reserve easily on WhatsApp.">
+  
+  <!-- OpenGraph / Social -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Amina's Kitchen | Homemade Food in Islamabad">
+  <meta property="og:description" content="Comforting homemade food prepared with care in Islamabad. Daily meals, rotating monthly menus, traditional desserts, and easy WhatsApp ordering.">
+  <meta property="og:image" content="https://iili.io/nBc6qbf.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Amina's Kitchen | Homemade Food in Islamabad">
+  <meta name="twitter:description" content="Homemade food service operating in Islamabad. View our weekly & monthly menus and place your order conveniently via WhatsApp.">
+  <meta name="twitter:image" content="https://iili.io/nBc6qbf.png">
+
+  <!-- Poppins Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Structured Data (Schema.org) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Amina's Kitchen",
+    "description": "Homemade food service operating in Islamabad, offering daily meals, weekly & monthly menu planning, and homemade desserts.",
+    "telephone": "+923198442326",
+    "email": "sanafaysal1991@gmail.com",
+    "image": "https://iili.io/nBc6qbf.png",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Islamabad",
+      "addressCountry": "PK"
+    },
+    "sameAs": [
+      "https://www.facebook.com/p/Amina-s-Kitchen-61559624369004/",
+      "https://www.instagram.com/officialaminaskitchen/"
+    ]
+  }
+  </script>
+
+  <style>
+    /* CSS RESET & VARIABLES */
+    :root {
+      --color-white: #FFFFFF;
+      --color-soft-pink: #FAC2CD;
+      --color-soft-pink-light: #FDE8EC;
+      --color-soft-pink-border: #F7A8B7;
+      --color-primary-brown: #6D322E;
+      --color-primary-brown-light: #8A433E;
+      --color-dark-footer: #1F0609;
+      --color-text-main: #2A1719;
+      --color-text-muted: #5C4547;
+      --color-bg-light: #FDFBFB;
+      --color-bg-alt: #F9F3F4;
+      --color-border: #E8D8DA;
+      --radius-sm: 8px;
+      --radius-md: 12px;
+      --radius-lg: 16px;
+      --transition: 240ms cubic-bezier(0.25, 0.8, 0.25, 1);
+    }
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      font-size: 16px;
+    }
+
+    body {
+      font-family: 'Poppins', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      color: var(--color-text-main);
+      background-color: var(--color-bg-light);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      overflow-x: hidden;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+      transition: color var(--transition), background-color var(--transition);
+    }
+
+    button, input, select, textarea {
+      font-family: inherit;
+      font-size: 1rem;
+    }
+
+    button {
+      cursor: pointer;
+      border: none;
+      background: none;
+      transition: all var(--transition);
+    }
+
+    /* UTILITY CONTAINER */
+    .container {
+      width: 100%;
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    .section {
+      padding: 72px 0;
+    }
+
+    @media (max-width: 768px) {
+      .section {
+        padding: 48px 0;
+      }
+    }
+
+    .section-alt {
+      background-color: var(--color-bg-alt);
+    }
+
+    .section-header {
+      text-align: center;
+      max-width: 700px;
+      margin: 0 auto 40px auto;
+    }
+
+    .section-title {
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--color-primary-brown);
+      line-height: 1.25;
+      margin-bottom: 12px;
+    }
+
+    @media (max-width: 768px) {
+      .section-title {
+        font-size: 1.625rem;
+      }
+    }
+
+    .section-subtitle {
+      font-size: 1rem;
+      color: var(--color-text-muted);
+      font-weight: 400;
+    }
+
+    /* BUTTONS */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 12px 24px;
+      border-radius: var(--radius-sm);
+      font-weight: 600;
+      font-size: 0.9375rem;
+      white-space: nowrap;
+      transition: all var(--transition);
+      text-align: center;
+    }
+
+    .btn-primary {
+      background-color: var(--color-primary-brown);
+      color: var(--color-white);
+    }
+
+    .btn-primary:hover, .btn-primary:focus-visible {
+      background-color: var(--color-dark-footer);
+      color: var(--color-white);
+      transform: translateY(-1px);
+    }
+
+    .btn-secondary {
+      background-color: var(--color-white);
+      color: var(--color-primary-brown);
+      border: 1px solid var(--color-primary-brown);
+    }
+
+    .btn-secondary:hover, .btn-secondary:focus-visible {
+      background-color: var(--color-soft-pink-light);
+      border-color: var(--color-primary-brown);
+      color: var(--color-primary-brown);
+    }
+
+    .btn-sm {
+      padding: 8px 16px;
+      font-size: 0.875rem;
+    }
+
+    .btn-whatsapp {
+      background-color: #25D366;
+      color: #FFFFFF;
+      font-weight: 600;
+    }
+
+    .btn-whatsapp:hover, .btn-whatsapp:focus-visible {
+      background-color: #1EBE5D;
+      color: #FFFFFF;
+      transform: translateY(-1px);
+    }
+
+    /* HEADER & NAVIGATION */
+    .header {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background-color: #FAC2CD;
+      border-bottom: 1px solid rgba(109, 50, 46, 0.18);
+      box-shadow: 0 2px 12px rgba(31, 6, 9, 0.06);
+    }
+
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 76px;
+    }
+
+    .brand-logo-link {
+      display: inline-flex;
+      align-items: center;
+      line-height: 1;
+    }
+
+    .header-logo {
+      height: 52px;
+      width: auto;
+      object-fit: contain;
+    }
+
+    .nav-desktop {
+      display: flex;
+      align-items: center;
+      gap: 28px;
+    }
+
+    .nav-link {
+      font-size: 0.9375rem;
+      font-weight: 500;
+      color: var(--color-text-main);
+      padding: 6px 2px;
+      position: relative;
+    }
+
+    .nav-link::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0%;
+      height: 2px;
+      background-color: var(--color-primary-brown);
+      transition: width var(--transition);
+    }
+
+    .nav-link:hover, .nav-link:focus-visible {
+      color: var(--color-primary-brown);
+    }
+
+    .nav-link:hover::after, .nav-link:focus-visible::after {
+      width: 100%;
+    }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .mobile-menu-btn {
+      display: none;
+      align-items: center;
+      justify-content: center;
+      width: 44px;
+      height: 44px;
+      color: var(--color-primary-brown);
+      padding: 8px;
+      border-radius: var(--radius-sm);
+    }
+
+    .mobile-menu-btn:hover {
+      background-color: rgba(109, 50, 46, 0.12);
+    }
+
+    .mobile-nav-drawer {
+      display: none;
+      position: fixed;
+      top: 76px;
+      left: 0;
+      right: 0;
+      background-color: #FAC2CD;
+      border-bottom: 2px solid var(--color-primary-brown);
+      padding: 20px;
+      box-shadow: 0 10px 24px rgba(31, 6, 9, 0.12);
+      flex-direction: column;
+      gap: 16px;
+      z-index: 999;
+    }
+
+    .mobile-nav-drawer.is-active {
+      display: flex;
+    }
+
+    .mobile-nav-link {
+      font-size: 1.0625rem;
+      font-weight: 500;
+      color: var(--color-text-main);
+      padding: 10px 0;
+      border-bottom: 1px solid rgba(109, 50, 46, 0.15);
+    }
+
+    .mobile-nav-link:hover {
+      color: var(--color-primary-brown);
+      padding-left: 6px;
+    }
+
+    @media (max-width: 860px) {
+      .nav-desktop {
+        display: none;
+      }
+      .mobile-menu-btn {
+        display: inline-flex;
+      }
+      .header-actions .btn-primary {
+        display: none;
+      }
+    }
+
+    /* HERO SECTION */
+    .hero-section {
+      position: relative;
+      min-height: 520px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: var(--color-white);
+      overflow: hidden;
+      padding: 80px 20px;
+    }
+
+    .hero-bg-wrapper {
+      position: absolute;
+      inset: 0;
+      z-index: 1;
+      overflow: hidden;
+    }
+
+    .hero-bg-image {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      transform: scale(1.02);
+      animation: heroZoom 16s ease-in-out infinite alternate;
+    }
+
+    @keyframes heroZoom {
+      0% {
+        transform: scale(1.02);
+      }
+      100% {
+        transform: scale(1.08);
+      }
+    }
+
+    .hero-overlay {
+      position: absolute;
+      inset: 0;
+      z-index: 2;
+      background: linear-gradient(
+        180deg,
+        rgba(31, 6, 9, 0.72) 0%,
+        rgba(31, 6, 9, 0.65) 50%,
+        rgba(31, 6, 9, 0.8) 100%
+      );
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 3;
+      max-width: 760px;
+      margin: 0 auto;
+    }
+
+    .hero-badge {
+      display: inline-block;
+      background-color: rgba(250, 194, 205, 0.2);
+      border: 1px solid var(--color-soft-pink);
+      color: var(--color-soft-pink);
+      padding: 6px 16px;
+      border-radius: 50px;
+      font-size: 0.875rem;
+      font-weight: 500;
+      margin-bottom: 20px;
+      letter-spacing: 0.5px;
+    }
+
+    .hero-title {
+      font-size: 2.75rem;
+      font-weight: 700;
+      line-height: 1.2;
+      margin-bottom: 20px;
+      color: #FFFFFF;
+      text-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+    }
+
+    @media (max-width: 768px) {
+      .hero-title {
+        font-size: 2rem;
+      }
+      .hero-section {
+        min-height: 440px;
+        padding: 60px 16px;
+      }
+    }
+
+    .hero-desc {
+      font-size: 1.125rem;
+      line-height: 1.6;
+      color: rgba(255, 255, 255, 0.92);
+      margin-bottom: 32px;
+      max-width: 640px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    @media (max-width: 768px) {
+      .hero-desc {
+        font-size: 1rem;
+      }
+    }
+
+    .hero-cta-group {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    /* INTRODUCTION SECTION */
+    .intro-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 48px;
+      align-items: center;
+    }
+
+    @media (max-width: 860px) {
+      .intro-grid {
+        grid-template-columns: 1fr;
+        gap: 32px;
+      }
+    }
+
+    .intro-text h2 {
+      font-size: 2rem;
+      color: var(--color-primary-brown);
+      font-weight: 700;
+      line-height: 1.3;
+      margin-bottom: 18px;
+    }
+
+    .intro-text p {
+      color: var(--color-text-muted);
+      margin-bottom: 16px;
+      font-size: 1rem;
+    }
+
+    .intro-features {
+      margin-top: 24px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+
+    @media (max-width: 540px) {
+      .intro-features {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .intro-feature-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+    }
+
+    .intro-feature-icon {
+      color: var(--color-primary-brown);
+      flex-shrink: 0;
+      margin-top: 3px;
+    }
+
+    .intro-feature-title {
+      font-size: 0.9375rem;
+      font-weight: 600;
+      color: var(--color-text-main);
+    }
+
+    .intro-image-wrap {
+      position: relative;
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      box-shadow: 0 8px 24px rgba(31, 6, 9, 0.08);
+      border: 1px solid var(--color-border);
+      aspect-ratio: 4/3;
+    }
+
+    .intro-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    /* SERVICES SECTION */
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 24px;
+    }
+
+    @media (max-width: 992px) {
+      .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 580px) {
+      .services-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .service-card {
+      background-color: var(--color-white);
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      border: 1px solid var(--color-border);
+      display: flex;
+      flex-direction: column;
+      transition: transform var(--transition), box-shadow var(--transition);
+    }
+
+    .service-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 28px rgba(31, 6, 9, 0.08);
+      border-color: var(--color-soft-pink-border);
+    }
+
+    .service-image-box {
+      height: 180px;
+      overflow: hidden;
+      background-color: var(--color-bg-alt);
+    }
+
+    .service-image-box img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 400ms ease;
+    }
+
+    .service-card:hover .service-image-box img {
+      transform: scale(1.05);
+    }
+
+    .service-body {
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+    }
+
+    .service-title {
+      font-size: 1.125rem;
+      font-weight: 600;
+      color: var(--color-primary-brown);
+      margin-bottom: 8px;
+    }
+
+    .service-desc {
+      font-size: 0.9375rem;
+      color: var(--color-text-muted);
+      line-height: 1.5;
+      margin-bottom: 16px;
+      flex-grow: 1;
+    }
+
+    /* MONTHLY & WEEKLY MENU SECTION */
+    .menu-tabs-wrapper {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 32px;
+      flex-wrap: wrap;
+    }
+
+    .menu-tab-btn {
+      padding: 10px 22px;
+      border-radius: 50px;
+      font-weight: 600;
+      font-size: 0.9375rem;
+      background-color: var(--color-white);
+      color: var(--color-text-main);
+      border: 1px solid var(--color-border);
+    }
+
+    .menu-tab-btn:hover {
+      border-color: var(--color-primary-brown);
+      color: var(--color-primary-brown);
+    }
+
+    .menu-tab-btn.is-active {
+      background-color: var(--color-primary-brown);
+      color: var(--color-white);
+      border-color: var(--color-primary-brown);
+    }
+
+    .week-days-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+    }
+
+    @media (max-width: 900px) {
+      .week-days-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 600px) {
+      .week-days-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .dish-card {
+      background-color: var(--color-white);
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      border: 1px solid var(--color-border);
+      display: flex;
+      flex-direction: column;
+      transition: transform var(--transition), box-shadow var(--transition);
+    }
+
+    .dish-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 24px rgba(31, 6, 9, 0.07);
+      border-color: var(--color-soft-pink-border);
+    }
+
+    .dish-image-wrap {
+      position: relative;
+      height: 200px;
+      overflow: hidden;
+      background-color: var(--color-bg-alt);
+    }
+
+    .dish-image-wrap img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 400ms ease;
+    }
+
+    .dish-card:hover .dish-image-wrap img {
+      transform: scale(1.04);
+    }
+
+    .dish-day-badge {
+      position: absolute;
+      top: 12px;
+      left: 12px;
+      background-color: rgba(31, 6, 9, 0.82);
+      color: var(--color-white);
+      padding: 4px 12px;
+      border-radius: var(--radius-sm);
+      font-size: 0.8125rem;
+      font-weight: 600;
+      letter-spacing: 0.3px;
+    }
+
+    .dish-body {
+      padding: 18px;
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+    }
+
+    .dish-name {
+      font-size: 1.1875rem;
+      font-weight: 600;
+      color: var(--color-primary-brown);
+      margin-bottom: 6px;
+    }
+
+    .dish-includes {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.875rem;
+      color: var(--color-text-muted);
+      margin-bottom: 16px;
+      flex-grow: 1;
+    }
+
+    .dish-includes svg {
+      flex-shrink: 0;
+      color: var(--color-primary-brown);
+    }
+
+    .dish-footer {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      padding-top: 12px;
+      border-top: 1px solid var(--color-bg-alt);
+    }
+
+    /* ALL DISHES FILTER & GALLERY */
+    .menu-filter-row {
+      display: flex;
+      justify-content: center;
+      gap: 8px;
+      margin: 40px auto 24px auto;
+      flex-wrap: wrap;
+    }
+
+    .filter-chip {
+      padding: 6px 14px;
+      border-radius: var(--radius-sm);
+      font-size: 0.875rem;
+      font-weight: 500;
+      background: var(--color-bg-alt);
+      color: var(--color-text-main);
+      border: 1px solid transparent;
+    }
+
+    .filter-chip.is-active, .filter-chip:hover {
+      background: var(--color-soft-pink-light);
+      border-color: var(--color-soft-pink);
+      color: var(--color-primary-brown);
+    }
+
+    /* ORDER / RESERVATION SECTION */
+    .order-container {
+      max-width: 820px;
+      margin: 0 auto;
+      background-color: var(--color-white);
+      border-radius: var(--radius-lg);
+      padding: 40px;
+      border: 1px solid var(--color-border);
+      box-shadow: 0 12px 32px rgba(31, 6, 9, 0.06);
+    }
+
+    @media (max-width: 768px) {
+      .order-container {
+        padding: 24px 18px;
+      }
+    }
+
+    .order-form-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+
+    @media (max-width: 680px) {
+      .order-form-grid {
+        grid-template-columns: 1fr;
+        gap: 16px;
+      }
+    }
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .form-group.full-width {
+      grid-column: 1 / -1;
+    }
+
+    .form-label {
+      font-size: 0.9375rem;
+      font-weight: 600;
+      color: var(--color-text-main);
+    }
+
+    .form-label .required {
+      color: var(--color-primary-brown);
+    }
+
+    .form-input, .form-select, .form-textarea {
+      width: 100%;
+      padding: 12px 14px;
+      border-radius: var(--radius-sm);
+      border: 1px solid var(--color-border);
+      background-color: var(--color-white);
+      color: var(--color-text-main);
+      font-size: 0.9375rem;
+      transition: border-color var(--transition), box-shadow var(--transition);
+    }
+
+    .form-input:focus, .form-select:focus, .form-textarea:focus {
+      outline: none;
+      border-color: var(--color-primary-brown);
+      box-shadow: 0 0 0 3px rgba(109, 50, 46, 0.12);
+    }
+
+    .form-input.is-invalid, .form-select.is-invalid, .form-textarea.is-invalid {
+      border-color: #D32F2F;
+    }
+
+    .form-error-msg {
+      font-size: 0.8125rem;
+      color: #D32F2F;
+      min-height: 18px;
+    }
+
+    .other-time-container {
+      display: none;
+      margin-top: 10px;
+    }
+
+    .other-time-container.is-visible {
+      display: block;
+    }
+
+    .order-summary-box {
+      margin-top: 24px;
+      padding: 18px;
+      background-color: var(--color-bg-alt);
+      border-radius: var(--radius-sm);
+      border: 1px dashed var(--color-soft-pink-border);
+      font-size: 0.9375rem;
+      color: var(--color-text-muted);
+    }
+
+    .order-actions {
+      margin-top: 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      align-items: center;
+    }
+
+    .order-note {
+      font-size: 0.875rem;
+      color: var(--color-text-muted);
+      text-align: center;
+    }
+
+    /* PACKAGING SECTION */
+    .packaging-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 32px;
+      align-items: center;
+    }
+
+    @media (max-width: 768px) {
+      .packaging-grid {
+        grid-template-columns: 1fr;
+        gap: 24px;
+      }
+    }
+
+    .packaging-card {
+      background-color: var(--color-white);
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      border: 1px solid var(--color-border);
+      box-shadow: 0 8px 24px rgba(31, 6, 9, 0.05);
+    }
+
+    .packaging-image-wrap {
+      height: 280px;
+      overflow: hidden;
+    }
+
+    .packaging-image-wrap img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 400ms ease;
+    }
+
+    .packaging-card:hover .packaging-image-wrap img {
+      transform: scale(1.03);
+    }
+
+    .packaging-caption {
+      padding: 18px 20px;
+      font-size: 0.9375rem;
+      color: var(--color-text-muted);
+      line-height: 1.5;
+    }
+
+    /* DESSERTS SECTION */
+    .desserts-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 24px;
+    }
+
+    @media (max-width: 992px) {
+      .desserts-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 580px) {
+      .desserts-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .dessert-card {
+      background-color: var(--color-white);
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      border: 1px solid var(--color-border);
+      display: flex;
+      flex-direction: column;
+      transition: transform var(--transition), box-shadow var(--transition);
+    }
+
+    .dessert-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 24px rgba(31, 6, 9, 0.07);
+      border-color: var(--color-soft-pink-border);
+    }
+
+    .dessert-image-wrap {
+      height: 190px;
+      overflow: hidden;
+      background-color: var(--color-bg-alt);
+    }
+
+    .dessert-image-wrap img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 400ms ease;
+    }
+
+    .dessert-card:hover .dessert-image-wrap img {
+      transform: scale(1.04);
+    }
+
+    .dessert-body {
+      padding: 18px;
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+    }
+
+    .dessert-title {
+      font-size: 1.1875rem;
+      font-weight: 600;
+      color: var(--color-primary-brown);
+      margin-bottom: 6px;
+    }
+
+    .dessert-desc {
+      font-size: 0.875rem;
+      color: var(--color-text-muted);
+      line-height: 1.5;
+      margin-bottom: 16px;
+      flex-grow: 1;
+    }
+
+    /* WHY CHOOSE US SECTION */
+    .reasons-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 28px;
+    }
+
+    @media (max-width: 860px) {
+      .reasons-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 560px) {
+      .reasons-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+      }
+    }
+
+    .reason-card {
+      background-color: var(--color-white);
+      padding: 24px;
+      border-radius: var(--radius-md);
+      border: 1px solid var(--color-border);
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .reason-icon {
+      color: var(--color-primary-brown);
+      width: 28px;
+      height: 28px;
+    }
+
+    .reason-title {
+      font-size: 1.0625rem;
+      font-weight: 600;
+      color: var(--color-primary-brown);
+    }
+
+    .reason-desc {
+      font-size: 0.9375rem;
+      color: var(--color-text-muted);
+      line-height: 1.5;
+    }
+
+    /* CONTACT SECTION */
+    .contact-layout {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+      align-items: flex-start;
+    }
+
+    @media (max-width: 860px) {
+      .contact-layout {
+        grid-template-columns: 1fr;
+        gap: 32px;
+      }
+    }
+
+    .contact-info-card {
+      background-color: var(--color-white);
+      padding: 32px;
+      border-radius: var(--radius-md);
+      border: 1px solid var(--color-border);
+    }
+
+    .contact-info-title {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--color-primary-brown);
+      margin-bottom: 12px;
+    }
+
+    .contact-info-intro {
+      font-size: 0.9375rem;
+      color: var(--color-text-muted);
+      margin-bottom: 24px;
+      line-height: 1.6;
+    }
+
+    .contact-items-list {
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+      margin-bottom: 28px;
+    }
+
+    .contact-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+    }
+
+    .contact-item-icon {
+      color: var(--color-primary-brown);
+      flex-shrink: 0;
+      margin-top: 3px;
+    }
+
+    .contact-item-label {
+      font-size: 0.8125rem;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--color-text-muted);
+      font-weight: 600;
+    }
+
+    .contact-item-val {
+      font-size: 1rem;
+      font-weight: 500;
+      color: var(--color-text-main);
+    }
+
+    .contact-item-val a:hover {
+      color: var(--color-primary-brown);
+      text-decoration: underline;
+    }
+
+    .social-links-row {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin-top: 20px;
+      padding-top: 20px;
+      border-top: 1px solid var(--color-border);
+    }
+
+    .social-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 14px;
+      border-radius: var(--radius-sm);
+      background-color: var(--color-bg-alt);
+      color: var(--color-text-main);
+      font-size: 0.875rem;
+      font-weight: 500;
+      border: 1px solid var(--color-border);
+    }
+
+    .social-link:hover {
+      background-color: var(--color-soft-pink-light);
+      border-color: var(--color-soft-pink);
+      color: var(--color-primary-brown);
+    }
+
+    .contact-form-card {
+      background-color: var(--color-white);
+      padding: 32px;
+      border-radius: var(--radius-md);
+      border: 1px solid var(--color-border);
+    }
+
+    /* FOOTER */
+    .footer {
+      background-color: var(--color-dark-footer);
+      color: #FFFFFF;
+      padding: 64px 0 28px 0;
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1.5fr;
+      gap: 40px;
+      margin-bottom: 48px;
+    }
+
+    @media (max-width: 900px) {
+      .footer-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 32px;
+      }
+    }
+
+    @media (max-width: 580px) {
+      .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 28px;
+        text-align: left;
+      }
+    }
+
+    .footer-logo {
+      height: 64px;
+      width: auto;
+      object-fit: contain;
+      margin-bottom: 16px;
+      background-color: #FAC2CD;
+      padding: 6px 12px;
+      border-radius: var(--radius-sm);
+      display: inline-block;
+    }
+
+    .footer-desc {
+      color: rgba(255, 255, 255, 0.76);
+      font-size: 0.9375rem;
+      line-height: 1.6;
+      max-width: 320px;
+      margin-bottom: 18px;
+    }
+
+    .footer-col-title {
+      font-size: 1.0625rem;
+      font-weight: 600;
+      color: var(--color-soft-pink);
+      margin-bottom: 16px;
+    }
+
+    .footer-links-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .footer-link {
+      color: rgba(255, 255, 255, 0.8);
+      font-size: 0.9375rem;
+      transition: color var(--transition);
+    }
+
+    .footer-link:hover, .footer-link:focus-visible {
+      color: var(--color-soft-pink);
+    }
+
+    .footer-contact-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .footer-contact-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      color: rgba(255, 255, 255, 0.8);
+      font-size: 0.9375rem;
+    }
+
+    .footer-contact-item svg {
+      color: var(--color-soft-pink);
+      flex-shrink: 0;
+      margin-top: 3px;
+    }
+
+    .footer-contact-item a:hover {
+      color: var(--color-soft-pink);
+      text-decoration: underline;
+    }
+
+    .footer-bottom {
+      border-top: 1px solid rgba(255, 255, 255, 0.12);
+      padding-top: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 16px;
+      font-size: 0.875rem;
+      color: rgba(255, 255, 255, 0.6);
+    }
+
+    @media (max-width: 600px) {
+      .footer-bottom {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+
+    /* FLOATING WHATSAPP BUTTON */
+    .floating-whatsapp {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      z-index: 990;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background-color: #25D366;
+      color: #FFFFFF;
+      padding: 12px 18px;
+      border-radius: 50px;
+      box-shadow: 0 6px 20px rgba(37, 211, 102, 0.38);
+      font-size: 0.9375rem;
+      font-weight: 600;
+      transition: transform var(--transition), box-shadow var(--transition);
+    }
+
+    .floating-whatsapp:hover, .floating-whatsapp:focus-visible {
+      transform: translateY(-2px) scale(1.02);
+      box-shadow: 0 8px 24px rgba(37, 211, 102, 0.48);
+      color: #FFFFFF;
+    }
+
+    @media (max-width: 600px) {
+      .floating-whatsapp span {
+        display: none;
+      }
+      .floating-whatsapp {
+        padding: 14px;
+        bottom: 20px;
+        right: 20px;
+        border-radius: 50%;
+      }
+    }
+
+    /* ACCESSIBILITY & MOTION PREFERENCES */
+    :focus-visible {
+      outline: 2px solid var(--color-primary-brown);
+      outline-offset: 3px;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header" id="header" role="banner">
+    <div class="container">
+      <div class="header-inner">
+        <a href="#home" class="brand-logo-link" aria-label="Amina's Kitchen Home">
+          <img src="https://i.postimg.cc/C1TSRMtn/image.png" alt="Amina's Kitchen Logo" class="header-logo" width="160" height="52">
+        </a>
+
+        <!-- Desktop Navigation -->
+        <nav class="nav-desktop" aria-label="Main Navigation">
+          <a href="#home" class="nav-link">Home</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#services" class="nav-link">Services</a>
+          <a href="#menu" class="nav-link">Menu</a>
+          <a href="#order" class="nav-link">Order</a>
+          <a href="#desserts" class="nav-link">Desserts</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+
+        <div class="header-actions">
+          <a href="#order" class="btn btn-primary btn-sm">Order Now</a>
+          <button type="button" class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle Navigation Menu" aria-expanded="false" aria-controls="mobileNavDrawer">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <line x1="3" y1="12" x2="21" y2="12"></line>
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer -->
+    <div class="mobile-nav-drawer" id="mobileNavDrawer" aria-label="Mobile Navigation">
+      <a href="#home" class="mobile-nav-link">Home</a>
+      <a href="#about" class="mobile-nav-link">About</a>
+      <a href="#services" class="mobile-nav-link">Services</a>
+      <a href="#menu" class="mobile-nav-link">Weekly & Monthly Menu</a>
+      <a href="#order" class="mobile-nav-link">Order / Reservation</a>
+      <a href="#packaging" class="mobile-nav-link">Food Presentation</a>
+      <a href="#desserts" class="mobile-nav-link">Homemade Desserts</a>
+      <a href="#contact" class="mobile-nav-link">Contact</a>
+      <a href="#order" class="btn btn-primary" style="margin-top: 8px;">Order Now</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero-section" id="home" aria-label="Introduction Banner">
+      <div class="hero-bg-wrapper">
+        <img src="https://iili.io/nBc6qbf.png" alt="Amina's Kitchen freshly prepared homemade meal spread" class="hero-bg-image" fetchpriority="high">
+      </div>
+      <div class="hero-overlay"></div>
+      <div class="container">
+        <div class="hero-content">
+          <span class="hero-badge">Homemade Food in Islamabad</span>
+          <h1 class="hero-title">Homemade Food Made With Care in Islamabad</h1>
+          <p class="hero-desc">Enjoy comforting homemade meals prepared with care and available for convenient ordering in Islamabad.</p>
+          <div class="hero-cta-group">
+            <a href="#order" class="btn btn-primary">Order Now</a>
+            <a href="#menu" class="btn btn-secondary">View Menu</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INTRODUCTION -->
+    <section class="section" id="about" aria-label="About Amina's Kitchen">
+      <div class="container">
+        <div class="intro-grid">
+          <div class="intro-text">
+            <h2>Fresh Homemade Meals for Everyday Living</h2>
+            <p>Amina's Kitchen is a homemade food service in Islamabad focused on bringing genuine, wholesome food to your table. Whether you need a satisfying everyday lunch, an evening family dinner, or advance meal planning, our food is cooked with care using traditional Pakistani recipes.</p>
+            <p>From aromatic biryanis and classic curries to comforting daals and vegetables, we provide balanced dishes paired with fresh chapatis, salad, and raita.</p>
+            
+            <div class="intro-features">
+              <div class="intro-feature-item">
+                <svg class="intro-feature-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span class="intro-feature-title">Everyday Pakistani Food</span>
+              </div>
+              <div class="intro-feature-item">
+                <svg class="intro-feature-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span class="intro-feature-title">Convenient Meal Ordering</span>
+              </div>
+              <div class="intro-feature-item">
+                <svg class="intro-feature-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span class="intro-feature-title">Rotating Menu Variety</span>
+              </div>
+              <div class="intro-feature-item">
+                <svg class="intro-feature-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span class="intro-feature-title">Direct WhatsApp Support</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="intro-image-wrap">
+            <img src="https://iili.io/nBcZyp1.png" alt="Freshly cooked homemade dishes prepared with care" class="intro-image" loading="lazy" width="600" height="450">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="section section-alt" id="services" aria-label="Food Services">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">What We Offer</h2>
+          <p class="section-subtitle">Flexible meal options designed around your weekly schedule and daily cravings.</p>
+        </div>
+
+        <div class="services-grid">
+          <!-- Service 1 -->
+          <div class="service-card">
+            <div class="service-image-box">
+              <img src="https://iili.io/nBlOJON.png" alt="Daily homemade meals" loading="lazy" width="300" height="180">
+            </div>
+            <div class="service-body">
+              <h3 class="service-title">Daily Homemade Meals</h3>
+              <p class="service-desc">Convenient homemade food for everyday lunch or dinner, prepared with care and served fresh.</p>
+              <a href="#order" class="btn btn-secondary btn-sm" onclick="selectDishForOrder('Daily Meal Special')">Order Meal</a>
+            </div>
+          </div>
+
+          <!-- Service 2 -->
+          <div class="service-card">
+            <div class="service-image-box">
+              <img src="https://iili.io/nBl8e6X.png" alt="Weekly meal schedule" loading="lazy" width="300" height="180">
+            </div>
+            <div class="service-body">
+              <h3 class="service-title">Weekly Menu</h3>
+              <p class="service-desc">A rotating weekly selection allowing customers to plan meals in advance throughout the days.</p>
+              <a href="#menu" class="btn btn-secondary btn-sm">Explore Week</a>
+            </div>
+          </div>
+
+          <!-- Service 3 -->
+          <div class="service-card">
+            <div class="service-image-box">
+              <img src="https://iili.io/nBlSYHG.png" alt="Monthly menu planning" loading="lazy" width="300" height="180">
+            </div>
+            <div class="service-body">
+              <h3 class="service-title">Monthly Menu</h3>
+              <p class="service-desc">A structured view of available dishes across all four weeks of the month for seamless planning.</p>
+              <a href="#menu" class="btn btn-secondary btn-sm">View Schedule</a>
+            </div>
+          </div>
+
+          <!-- Service 4 -->
+          <div class="service-card">
+            <div class="service-image-box">
+              <img src="https://iili.io/nBYmC2p.png" alt="Custom meal orders" loading="lazy" width="300" height="180">
+            </div>
+            <div class="service-body">
+              <h3 class="service-title">Custom Orders</h3>
+              <p class="service-desc">Allow customers to explain special meal preferences or portion requirements directly in the instructions.</p>
+              <a href="#order" class="btn btn-secondary btn-sm" onclick="selectDishForOrder('Custom Order')">Request Custom</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MENU -->
+    <section class="section" id="menu" aria-label="Weekly and Monthly Menu">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Weekly & Monthly Menu</h2>
+          <p class="section-subtitle">Browse our schedule by week or explore all freshly cooked homemade dishes.</p>
+        </div>
+
+        <!-- Week Selector Tabs -->
+        <div class="menu-tabs-wrapper" role="tablist" aria-label="Menu Weeks">
+          <button type="button" class="menu-tab-btn is-active" id="tabWeek1" role="tab" aria-selected="true" aria-controls="weekGrid" onclick="renderWeekMenu(1)">Week 1</button>
+          <button type="button" class="menu-tab-btn" id="tabWeek2" role="tab" aria-selected="false" aria-controls="weekGrid" onclick="renderWeekMenu(2)">Week 2</button>
+          <button type="button" class="menu-tab-btn" id="tabWeek3" role="tab" aria-selected="false" aria-controls="weekGrid" onclick="renderWeekMenu(3)">Week 3</button>
+          <button type="button" class="menu-tab-btn" id="tabWeek4" role="tab" aria-selected="false" aria-controls="weekGrid" onclick="renderWeekMenu(4)">Week 4</button>
+          <button type="button" class="menu-tab-btn" id="tabAll" role="tab" aria-selected="false" aria-controls="weekGrid" onclick="renderAllDishes()">All Dishes</button>
+        </div>
+
+        <!-- Dishes Grid Container -->
+        <div class="week-days-grid" id="weekGrid" role="tabpanel">
+          <!-- Dynamically populated via JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ORDER SECTION -->
+    <section class="section section-alt" id="order" aria-label="Order and Reservation">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Reserve Your Meal</h2>
+          <p class="section-subtitle">Fill in your preferred meal details below and submit directly on WhatsApp to confirm your order.</p>
+        </div>
+
+        <div class="order-container">
+          <form id="orderForm" novalidate>
+            <div class="order-form-grid">
+              
+              <!-- Full Name -->
+              <div class="form-group">
+                <label for="orderName" class="form-label">Full Name <span class="required">*</span></label>
+                <input type="text" id="orderName" class="form-input" placeholder="e.g. Sana Ahmed" required autocomplete="name">
+                <span class="form-error-msg" id="nameError"></span>
+              </div>
+
+              <!-- Phone Number (Numbers only) -->
+              <div class="form-group">
+                <label for="orderPhone" class="form-label">Phone Number <span class="required">*</span></label>
+                <input type="tel" id="orderPhone" class="form-input" placeholder="0312 3456789" required autocomplete="tel">
+                <span class="form-error-msg" id="phoneError"></span>
+              </div>
+
+              <!-- Selected Dish -->
+              <div class="form-group">
+                <label for="orderDish" class="form-label">Selected Dish / Food <span class="required">*</span></label>
+                <select id="orderDish" class="form-select" required>
+                  <option value="">-- Choose a dish --</option>
+                  <optgroup label="Main Dishes">
+                    <option value="Chicken Qorma">Chicken Qorma (2 Chapati, Salad & Raita)</option>
+                    <option value="Mixed Vegetables">Mixed Vegetables (2 Chapati, Salad & Raita)</option>
+                    <option value="Daal Chawal">Daal Chawal (Salad & Raita)</option>
+                    <option value="Keema Matar">Keema Matar (2 Chapati, Salad & Raita)</option>
+                    <option value="Daal Mash">Daal Mash (2 Chapati, Salad & Raita)</option>
+                    <option value="Chicken Biryani">Chicken Biryani (Salad & Raita)</option>
+                    <option value="Chicken Karahi">Chicken Karahi (2 Chapati, Salad & Raita)</option>
+                    <option value="Aloo Palak">Aloo Palak (2 Chapati, Salad & Raita)</option>
+                    <option value="Chicken Pulao">Chicken Pulao (Salad & Raita)</option>
+                    <option value="Daal Chana">Daal Chana (2 Chapati, Salad & Raita)</option>
+                    <option value="Chicken Kofta">Chicken Kofta (2 Chapati, Salad & Raita)</option>
+                  </optgroup>
+                  <optgroup label="Homemade Desserts">
+                    <option value="Gajar Ka Halwa">Gajar Ka Halwa</option>
+                    <option value="Kheer">Kheer</option>
+                    <option value="Custard">Custard</option>
+                    <option value="Fruit Trifle">Fruit Trifle</option>
+                  </optgroup>
+                  <optgroup label="Special Request">
+                    <option value="Custom Order">Custom Order / Inquire</option>
+                  </optgroup>
+                </select>
+                <span class="form-error-msg" id="dishError"></span>
+              </div>
+
+              <!-- Quantity -->
+              <div class="form-group">
+                <label for="orderQuantity" class="form-label">Quantity / Servings <span class="required">*</span></label>
+                <input type="number" id="orderQuantity" class="form-input" min="1" max="50" value="1" required>
+                <span class="form-error-msg" id="quantityError"></span>
+              </div>
+
+              <!-- Preferred Date -->
+              <div class="form-group">
+                <label for="orderDate" class="form-label">Preferred Date <span class="required">*</span></label>
+                <input type="date" id="orderDate" class="form-input" required>
+                <span class="form-error-msg" id="dateError"></span>
+              </div>
+
+              <!-- Preferred Time with "Other Time" option -->
+              <div class="form-group">
+                <label for="orderTime" class="form-label">Preferred Time <span class="required">*</span></label>
+                <select id="orderTime" class="form-select" required>
+                  <option value="">-- Select preferred time --</option>
+                  <option value="Lunch (12:30 PM - 1:30 PM)">Lunch (12:30 PM - 1:30 PM)</option>
+                  <option value="Lunch (1:30 PM - 2:30 PM)">Lunch (1:30 PM - 2:30 PM)</option>
+                  <option value="Dinner (6:30 PM - 7:30 PM)">Dinner (6:30 PM - 7:30 PM)</option>
+                  <option value="Dinner (7:30 PM - 8:30 PM)">Dinner (7:30 PM - 8:30 PM)</option>
+                  <option value="Dinner (8:30 PM - 9:30 PM)">Dinner (8:30 PM - 9:30 PM)</option>
+                  <option value="Other Time">Other Time (Specify below)</option>
+                </select>
+                <span class="form-error-msg" id="timeError"></span>
+
+                <!-- Specific Other Time field revealed on selection -->
+                <div class="other-time-container" id="otherTimeWrap">
+                  <label for="otherTimeInput" class="form-label" style="font-size: 0.875rem;">Specify Your Preferred Time <span class="required">*</span></label>
+                  <input type="text" id="otherTimeInput" class="form-input" placeholder="e.g. 3:00 PM or 7:00 PM">
+                  <span class="form-error-msg" id="otherTimeError"></span>
+                </div>
+              </div>
+
+              <!-- Delivery or Pickup Preference -->
+              <div class="form-group">
+                <label for="orderPreference" class="form-label">Delivery / Pickup Preference <span class="required">*</span></label>
+                <select id="orderPreference" class="form-select" required>
+                  <option value="Delivery in Islamabad">Delivery in Islamabad</option>
+                  <option value="Self Pickup">Self Pickup</option>
+                </select>
+              </div>
+
+              <!-- Delivery Address / Details -->
+              <div class="form-group">
+                <label for="orderAddress" class="form-label">Address or Location Details <span class="required">*</span></label>
+                <input type="text" id="orderAddress" class="form-input" placeholder="Sector / Area in Islamabad" required>
+                <span class="form-error-msg" id="addressError"></span>
+              </div>
+
+              <!-- Special Instructions -->
+              <div class="form-group full-width">
+                <label for="orderInstructions" class="form-label">Special Instructions (Optional)</label>
+                <textarea id="orderInstructions" class="form-textarea" rows="3" placeholder="Mild spice, extra salad, specific timing, or custom requirements..."></textarea>
+              </div>
+
+            </div>
+
+            <!-- Action buttons -->
+            <div class="order-actions">
+              <button type="submit" class="btn btn-whatsapp" id="submitOrderBtn">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm.01 1.67c4.54 0 8.24 3.7 8.24 8.24 0 2.2-.86 4.28-2.42 5.84a8.18 8.18 0 0 1-5.82 2.41c-1.45 0-2.88-.39-4.14-1.13l-.3-.18-3.08.81.82-3-.2-.31a8.167 8.167 0 0 1-1.25-4.44c0-4.54 3.7-8.24 8.24-8.24zm4.52 11.64c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.06-.39-2.02-1.24-.75-.67-1.25-1.5-1.4-1.75-.14-.25-.02-.39.11-.51.11-.11.25-.29.38-.44.13-.14.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.34-.76-1.84-.2-.49-.4-.42-.56-.43h-.47c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1 0 1.24.9 2.44 1.03 2.61.13.17 1.78 2.72 4.31 3.81.6.26 1.07.42 1.44.54.61.19 1.16.17 1.6.1.49-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.07-.12-.23-.19-.48-.32z"/>
+                </svg>
+                Send Order on WhatsApp
+              </button>
+              <p class="order-note">Clicking will open WhatsApp with your pre-formatted order details for quick confirmation.</p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- PACKAGING -->
+    <section class="section" id="packaging" aria-label="Food Packaging and Presentation">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Packed With Care</h2>
+          <p class="section-subtitle">See how Amina's Kitchen presents homemade meals for convenient ordering and serving.</p>
+        </div>
+
+        <div class="packaging-grid">
+          <div class="packaging-card">
+            <div class="packaging-image-wrap">
+              <img src="https://iili.io/nBlBDkF.png" alt="Carefully packed homemade food in neat container" loading="lazy" width="600" height="280">
+            </div>
+            <div class="packaging-caption">
+              Every meal is portioned and arranged neatly, keeping your food fresh, appetizing, and ready to enjoy at home or the office.
+            </div>
+          </div>
+
+          <div class="packaging-card">
+            <div class="packaging-image-wrap">
+              <img src="https://iili.io/nBlusJR.png" alt="Secure and clean food presentation for delivery" loading="lazy" width="600" height="280">
+            </div>
+            <div class="packaging-caption">
+              Fresh chapatis, chilled raita, and crisp salads are packed separately with care so that each component arrives fresh and enjoyable.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DESSERTS -->
+    <section class="section section-alt" id="desserts" aria-label="Homemade Desserts">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Homemade Desserts</h2>
+          <p class="section-subtitle">Delightful traditional sweet dishes to complement your meals.</p>
+        </div>
+
+        <div class="desserts-grid">
+          <!-- Gajar Ka Halwa -->
+          <div class="dessert-card">
+            <div class="dessert-image-wrap">
+              <img src="https://iili.io/nBvMYMb.png" alt="Gajar Ka Halwa" loading="lazy" width="300" height="190">
+            </div>
+            <div class="dessert-body">
+              <h3 class="dessert-title">Gajar Ka Halwa</h3>
+              <p class="dessert-desc">Traditional slow-cooked carrot dessert prepared in homemade style with milk and nuts.</p>
+              <button type="button" class="btn btn-secondary btn-sm" onclick="selectDishForOrder('Gajar Ka Halwa')">Order Dessert</button>
+            </div>
+          </div>
+
+          <!-- Kheer -->
+          <div class="dessert-card">
+            <div class="dessert-image-wrap">
+              <img src="https://iili.io/nB8ozRp.png" alt="Kheer" loading="lazy" width="300" height="190">
+            </div>
+            <div class="dessert-body">
+              <h3 class="dessert-title">Kheer</h3>
+              <p class="dessert-desc">Classic creamy rice pudding slow-simmered with cardamom for comforting sweetness.</p>
+              <button type="button" class="btn btn-secondary btn-sm" onclick="selectDishForOrder('Kheer')">Order Dessert</button>
+            </div>
+          </div>
+
+          <!-- Custard -->
+          <div class="dessert-card">
+            <div class="dessert-image-wrap">
+              <img src="https://iili.io/nB6rlUb.png" alt="Custard" loading="lazy" width="300" height="190">
+            </div>
+            <div class="dessert-body">
+              <h3 class="dessert-title">Custard</h3>
+              <p class="dessert-desc">Smooth, velvety homemade custard served chilled as a light after-meal treat.</p>
+              <button type="button" class="btn btn-secondary btn-sm" onclick="selectDishForOrder('Custard')">Order Dessert</button>
+            </div>
+          </div>
+
+          <!-- Fruit Trifle -->
+          <div class="dessert-card">
+            <div class="dessert-image-wrap">
+              <img src="https://iili.io/nB6NKoG.png" alt="Fruit Trifle" loading="lazy" width="300" height="190">
+            </div>
+            <div class="dessert-body">
+              <h3 class="dessert-title">Fruit Trifle</h3>
+              <p class="dessert-desc">Layered dessert featuring soft sponge, velvety custard, and mixed fruits.</p>
+              <button type="button" class="btn btn-secondary btn-sm" onclick="selectDishForOrder('Fruit Trifle')">Order Dessert</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHY CHOOSE US -->
+    <section class="section" id="why-us" aria-label="Why Choose Amina's Kitchen">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Why Choose Amina's Kitchen</h2>
+          <p class="section-subtitle">Dedicated to honest cooking, reliable ordering, and wholesome everyday food.</p>
+        </div>
+
+        <div class="reasons-grid">
+          <!-- 1 -->
+          <div class="reason-card">
+            <svg class="reason-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"></path>
+              <path d="M7 2v20"></path>
+              <path d="M21 15V2v0a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7"></path>
+            </svg>
+            <h3 class="reason-title">Homemade Meal Focus</h3>
+            <p class="reason-desc">Wholesome food cooked with care and attention, providing comforting tastes just like home.</p>
+          </div>
+
+          <!-- 2 -->
+          <div class="reason-card">
+            <svg class="reason-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+              <line x1="8" y1="21" x2="16" y2="21"></line>
+              <line x1="12" y1="17" x2="12" y2="21"></line>
+            </svg>
+            <h3 class="reason-title">Convenient Ordering</h3>
+            <p class="reason-desc">Quick and direct reservations via WhatsApp with simple meal, time, and date selection.</p>
+          </div>
+
+          <!-- 3 -->
+          <div class="reason-card">
+            <svg class="reason-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="10"></circle>
+              <path d="M8 14s1.5 2 4 2 4-2 4-2"></path>
+              <line x1="9" y1="9" x2="9.01" y2="9"></line>
+              <line x1="15" y1="9" x2="15.01" y2="9"></line>
+            </svg>
+            <h3 class="reason-title">Variety of Everyday Dishes</h3>
+            <p class="reason-desc">A wide range of meat curries, lentil dishes, rice specials, and vegetable favorites.</p>
+          </div>
+
+          <!-- 4 -->
+          <div class="reason-card">
+            <svg class="reason-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+              <line x1="16" y1="2" x2="16" y2="6"></line>
+              <line x1="8" y1="2" x2="8" y2="6"></line>
+              <line x1="3" y1="10" x2="21" y2="10"></line>
+            </svg>
+            <h3 class="reason-title">Weekly & Monthly Planning</h3>
+            <p class="reason-desc">Clear rotating schedules so you always know what dishes are planned for each day.</p>
+          </div>
+
+          <!-- 5 -->
+          <div class="reason-card">
+            <svg class="reason-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+            </svg>
+            <h3 class="reason-title">Direct WhatsApp Ordering</h3>
+            <p class="reason-desc">Fast, human communication for order confirmations, custom adjustments, and scheduling.</p>
+          </div>
+
+          <!-- 6 -->
+          <div class="reason-card">
+            <svg class="reason-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+              <polyline points="14 2 14 8 20 8"></polyline>
+              <line x1="16" y1="13" x2="8" y2="13"></line>
+              <line x1="16" y1="17" x2="8" y2="17"></line>
+              <polyline points="10 9 9 9 8 9"></polyline>
+            </svg>
+            <h3 class="reason-title">Clear Meal Details</h3>
+            <p class="reason-desc">Every dish clearly details its accompaniments—whether 2 chapatis, fresh salad, or raita.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section section-alt" id="contact" aria-label="Contact and Inquiries">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Get in Touch</h2>
+          <p class="section-subtitle">Reach out directly for general questions, special requests, or daily meal inquiries.</p>
+        </div>
+
+        <div class="contact-layout">
+          <!-- Contact Info -->
+          <div class="contact-info-card">
+            <h3 class="contact-info-title">Amina's Kitchen</h3>
+            <p class="contact-info-intro">We are delighted to serve households, individuals, and offices in Islamabad looking for fresh, comforting homemade meals.</p>
+
+            <div class="contact-items-list">
+              <!-- Location -->
+              <div class="contact-item">
+                <svg class="contact-item-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+                <div>
+                  <div class="contact-item-label">Location</div>
+                  <div class="contact-item-val">Islamabad, Pakistan</div>
+                </div>
+              </div>
+
+              <!-- Phone -->
+              <div class="contact-item">
+                <svg class="contact-item-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                </svg>
+                <div>
+                  <div class="contact-item-label">Phone / WhatsApp</div>
+                  <div class="contact-item-val"><a href="tel:03198442326">0319 8442326</a></div>
+                </div>
+              </div>
+
+              <!-- Email -->
+              <div class="contact-item">
+                <svg class="contact-item-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+                <div>
+                  <div class="contact-item-label">Email</div>
+                  <div class="contact-item-val"><a href="mailto:sanafaysal1991@gmail.com">sanafaysal1991@gmail.com</a></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Social Links -->
+            <div>
+              <div class="contact-item-label" style="margin-bottom: 8px;">Follow Our Updates</div>
+              <div class="social-links-row">
+                <a href="https://www.facebook.com/p/Amina-s-Kitchen-61559624369004/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Amina's Kitchen on Facebook">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                  </svg>
+                  Facebook
+                </a>
+
+                <a href="https://www.instagram.com/officialaminaskitchen/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Amina's Kitchen on Instagram">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                  </svg>
+                  Instagram
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Direct Inquiry Form -->
+          <div class="contact-form-card">
+            <h3 class="contact-info-title" style="font-size: 1.25rem;">Send an Inquiry</h3>
+            <p style="font-size: 0.875rem; color: var(--color-text-muted); margin-bottom: 20px;">Have a specific question? Send us a quick inquiry message directly to our WhatsApp.</p>
+            
+            <form id="contactForm" novalidate>
+              <div style="display: flex; flex-direction: column; gap: 16px;">
+                <div class="form-group">
+                  <label for="contactName" class="form-label">Your Name <span class="required">*</span></label>
+                  <input type="text" id="contactName" class="form-input" placeholder="e.g. Abdullah Masood" required>
+                  <span class="form-error-msg" id="contactNameError"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="contactPhone" class="form-label">Phone Number <span class="required">*</span></label>
+                  <input type="tel" id="contactPhone" class="form-input" placeholder="0312 3456789" required>
+                  <span class="form-error-msg" id="contactPhoneError"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="contactMessage" class="form-label">Message / Inquiry <span class="required">*</span></label>
+                  <textarea id="contactMessage" class="form-textarea" rows="3" placeholder="Tell us what you'd like to ask or inquire about..." required></textarea>
+                  <span class="form-error-msg" id="contactMsgError"></span>
+                </div>
+
+                <button type="submit" class="btn btn-primary" id="contactSubmitBtn">
+                  Send Message on WhatsApp
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Col 1: Logo & About -->
+        <div>
+          <img src="https://i.postimg.cc/C1TSRMtn/image.png" alt="Amina's Kitchen" class="footer-logo" width="180" height="64">
+          <p class="footer-desc">Amina's Kitchen is a dedicated homemade food service operating in Islamabad, Pakistan. Wholesome food prepared with care for everyday meals and special cravings.</p>
+        </div>
+
+        <!-- Col 2: Navigation -->
+        <div>
+          <h4 class="footer-col-title">Quick Links</h4>
+          <ul class="footer-links-list">
+            <li><a href="#home" class="footer-link">Home</a></li>
+            <li><a href="#about" class="footer-link">About Us</a></li>
+            <li><a href="#services" class="footer-link">Our Services</a></li>
+            <li><a href="#menu" class="footer-link">Weekly Menu</a></li>
+            <li><a href="#order" class="footer-link">Order / Reservation</a></li>
+            <li><a href="#desserts" class="footer-link">Homemade Desserts</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Social -->
+        <div>
+          <h4 class="footer-col-title">Social Profiles</h4>
+          <ul class="footer-links-list">
+            <li>
+              <a href="https://www.facebook.com/p/Amina-s-Kitchen-61559624369004/" target="_blank" rel="noopener noreferrer" class="footer-link">Facebook</a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/officialaminaskitchen/" target="_blank" rel="noopener noreferrer" class="footer-link">Instagram</a>
+            </li>
+            <li>
+              <a href="https://wa.me/923198442326" target="_blank" rel="noopener noreferrer" class="footer-link">WhatsApp Direct</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Contact info -->
+        <div>
+          <h4 class="footer-col-title">Contact</h4>
+          <ul class="footer-contact-list">
+            <li class="footer-contact-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              <span>Islamabad, Pakistan</span>
+            </li>
+            <li class="footer-contact-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              <a href="tel:03198442326">0319 8442326</a>
+            </li>
+            <li class="footer-contact-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              <a href="mailto:sanafaysal1991@gmail.com">sanafaysal1991@gmail.com</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 Amina's Kitchen. All rights reserved. Homemade Food in Islamabad.</div>
+        <div>Carefully prepared &bull; Convenient WhatsApp ordering</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- FLOATING WHATSAPP BUTTON -->
+  <a href="https://wa.me/923198442326" target="_blank" rel="noopener noreferrer" class="floating-whatsapp" aria-label="Contact Amina's Kitchen on WhatsApp">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+      <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm.01 1.67c4.54 0 8.24 3.7 8.24 8.24 0 2.2-.86 4.28-2.42 5.84a8.18 8.18 0 0 1-5.82 2.41c-1.45 0-2.88-.39-4.14-1.13l-.3-.18-3.08.81.82-3-.2-.31a8.167 8.167 0 0 1-1.25-4.44c0-4.54 3.7-8.24 8.24-8.24zm4.52 11.64c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.06-.39-2.02-1.24-.75-.67-1.25-1.5-1.4-1.75-.14-.25-.02-.39.11-.51.11-.11.25-.29.38-.44.13-.14.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.34-.76-1.84-.2-.49-.4-.42-.56-.43h-.47c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1 0 1.24.9 2.44 1.03 2.61.13.17 1.78 2.72 4.31 3.81.6.26 1.07.42 1.44.54.61.19 1.16.17 1.6.1.49-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.07-.12-.23-.19-.48-.32z"/>
+    </svg>
+    <span>WhatsApp Us</span>
+  </a>
+
+  <!-- JAVASCRIPT -->
+  <script>
+    // 1. DISH DATA DEFINITION (All 11 supplied dishes)
+    const DISHES = {
+      qorma: {
+        id: 'qorma',
+        name: 'Chicken Qorma',
+        image: 'https://iili.io/nBYB0GI.png',
+        includes: '2 Chapati, Salad & Raita'
+      },
+      mixedVeg: {
+        id: 'mixedVeg',
+        name: 'Mixed Vegetables',
+        image: 'https://iili.io/nBY77uS.png',
+        includes: '2 Chapati, Salad & Raita'
+      },
+      daalChawal: {
+        id: 'daalChawal',
+        name: 'Daal Chawal',
+        image: 'https://iili.io/nBY0YBt.png',
+        includes: 'Salad & Raita'
+      },
+      keemaMatar: {
+        id: 'keemaMatar',
+        name: 'Keema Matar',
+        image: 'https://iili.io/nBYEX19.png',
+        includes: '2 Chapati, Salad & Raita'
+      },
+      daalMash: {
+        id: 'daalMash',
+        name: 'Daal Mash',
+        image: 'https://iili.io/nBYMwDx.png',
+        includes: '2 Chapati, Salad & Raita'
+      },
+      biryani: {
+        id: 'biryani',
+        name: 'Chicken Biryani',
+        image: 'https://iili.io/nBYsu07.png',
+        includes: 'Salad & Raita'
+      },
+      karahi: {
+        id: 'karahi',
+        name: 'Chicken Karahi',
+        image: 'https://iili.io/nBYmC2p.png',
+        includes: '2 Chapati, Salad & Raita'
+      },
+      alooPalak: {
+        id: 'alooPalak',
+        name: 'Aloo Palak',
+        image: 'https://iili.io/nBaz2wu.png',
+        includes: '2 Chapati, Salad & Raita'
+      },
+      pulao: {
+        id: 'pulao',
+        name: 'Chicken Pulao',
+        image: 'https://iili.io/nBaINLJ.png',
+        includes: 'Salad & Raita'
+      },
+      daalChana: {
+        id: 'daalChana',
+        name: 'Daal Chana',
+        image: 'https://iili.io/nBa0i0X.png',
+        includes: '2 Chapati, Salad & Raita'
+      },
+      kofta: {
+        id: 'kofta',
+        name: 'Chicken Kofta',
+        image: 'https://iili.io/nBahkts.png',
+        includes: '2 Chapati, Salad & Raita'
+      }
+    };
+
+    // 2. MONTHLY SCHEDULE (Weeks 1 to 4 rotating schedule with Monday-Sunday structure)
+    const WEEKLY_SCHEDULES = {
+      1: [
+        { day: 'Monday', dish: DISHES.biryani },
+        { day: 'Tuesday', dish: DISHES.daalMash },
+        { day: 'Wednesday', dish: DISHES.karahi },
+        { day: 'Thursday', dish: DISHES.mixedVeg },
+        { day: 'Friday', dish: DISHES.pulao },
+        { day: 'Saturday', dish: DISHES.keemaMatar },
+        { day: 'Sunday', dish: DISHES.qorma }
+      ],
+      2: [
+        { day: 'Monday', dish: DISHES.daalChawal },
+        { day: 'Tuesday', dish: DISHES.qorma },
+        { day: 'Wednesday', dish: DISHES.alooPalak },
+        { day: 'Thursday', dish: DISHES.kofta },
+        { day: 'Friday', dish: DISHES.biryani },
+        { day: 'Saturday', dish: DISHES.daalChana },
+        { day: 'Sunday', dish: DISHES.karahi }
+      ],
+      3: [
+        { day: 'Monday', dish: DISHES.pulao },
+        { day: 'Tuesday', dish: DISHES.mixedVeg },
+        { day: 'Wednesday', dish: DISHES.keemaMatar },
+        { day: 'Thursday', dish: DISHES.daalMash },
+        { day: 'Friday', dish: DISHES.karahi },
+        { day: 'Saturday', dish: DISHES.alooPalak },
+        { day: 'Sunday', dish: DISHES.biryani }
+      ],
+      4: [
+        { day: 'Monday', dish: DISHES.kofta },
+        { day: 'Tuesday', dish: DISHES.daalChana },
+        { day: 'Wednesday', dish: DISHES.qorma },
+        { day: 'Thursday', dish: DISHES.daalChawal },
+        { day: 'Friday', dish: DISHES.biryani },
+        { day: 'Saturday', dish: DISHES.mixedVeg },
+        { day: 'Sunday', dish: DISHES.karahi }
+      ]
+    };
+
+    // 3. RENDER DISH CARDS
+    function createDishCard(item, badgeText) {
+      const dish = item.dish || item;
+      const badge = badgeText || item.day || '';
+      return `
+        <article class="dish-card">
+          <div class="dish-image-wrap">
+            <img src="${dish.image}" alt="${dish.name}" loading="lazy" width="380" height="200">
+            ${badge ? `<span class="dish-day-badge">${badge}</span>` : ''}
+          </div>
+          <div class="dish-body">
+            <h3 class="dish-name">${dish.name}</h3>
+            <div class="dish-includes">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+              </svg>
+              <span>Includes: <strong>${dish.includes}</strong></span>
+            </div>
+            <div class="dish-footer">
+              <button type="button" class="btn btn-primary btn-sm" onclick="selectDishForOrder('${dish.name}')">
+                Order This
+              </button>
+            </div>
+          </div>
+        </article>
+      `;
+    }
+
+    function renderWeekMenu(weekNum) {
+      // Update tab active states
+      document.querySelectorAll('.menu-tab-btn').forEach(btn => {
+        btn.classList.remove('is-active');
+        btn.setAttribute('aria-selected', 'false');
+      });
+      const activeBtn = document.getElementById('tabWeek' + weekNum);
+      if (activeBtn) {
+        activeBtn.classList.add('is-active');
+        activeBtn.setAttribute('aria-selected', 'true');
+      }
+
+      const grid = document.getElementById('weekGrid');
+      const weekData = WEEKLY_SCHEDULES[weekNum] || WEEKLY_SCHEDULES[1];
+      grid.innerHTML = weekData.map(item => createDishCard(item)).join('');
+    }
+
+    function renderAllDishes() {
+      document.querySelectorAll('.menu-tab-btn').forEach(btn => {
+        btn.classList.remove('is-active');
+        btn.setAttribute('aria-selected', 'false');
+      });
+      const activeBtn = document.getElementById('tabAll');
+      if (activeBtn) {
+        activeBtn.classList.add('is-active');
+        activeBtn.setAttribute('aria-selected', 'true');
+      }
+
+      const grid = document.getElementById('weekGrid');
+      const allList = Object.values(DISHES);
+      grid.innerHTML = allList.map(dish => createDishCard(dish, 'Fresh Choice')).join('');
+    }
+
+    // 4. ORDER PRE-POPULATION
+    function selectDishForOrder(dishName) {
+      const select = document.getElementById('orderDish');
+      if (!select) return;
+
+      let found = false;
+      for (let i = 0; i < select.options.length; i++) {
+        if (select.options[i].value === dishName) {
+          select.selectedIndex = i;
+          found = true;
+          break;
+        }
+      }
+
+      if (!found) {
+        // Find by partial text
+        for (let i = 0; i < select.options.length; i++) {
+          if (select.options[i].text.includes(dishName)) {
+            select.selectedIndex = i;
+            break;
+          }
+        }
+      }
+
+      // Smooth scroll to order section
+      const orderSec = document.getElementById('order');
+      if (orderSec) {
+        orderSec.scrollIntoView({ behavior: 'smooth' });
+        // Highlight form field
+        select.focus();
+      }
+    }
+
+    // 5. OTHER TIME SELECTOR TOGGLE
+    const orderTimeSelect = document.getElementById('orderTime');
+    const otherTimeWrap = document.getElementById('otherTimeWrap');
+    const otherTimeInput = document.getElementById('otherTimeInput');
+
+    if (orderTimeSelect && otherTimeWrap) {
+      orderTimeSelect.addEventListener('change', function() {
+        if (this.value === 'Other Time') {
+          otherTimeWrap.classList.add('is-visible');
+          otherTimeInput.required = true;
+          otherTimeInput.focus();
+        } else {
+          otherTimeWrap.classList.remove('is-visible');
+          otherTimeInput.required = false;
+          otherTimeInput.value = '';
+        }
+      });
+    }
+
+    // 6. PHONE VALIDATION (Numbers only, reject letters)
+    function sanitizePhoneInput(inputElement) {
+      inputElement.addEventListener('input', function() {
+        // Strip out any non-digits and non-plus/hyphen/space characters
+        this.value = this.value.replace(/[^0-9+\-\s]/g, '');
+      });
+    }
+
+    const orderPhone = document.getElementById('orderPhone');
+    const contactPhone = document.getElementById('contactPhone');
+    if (orderPhone) sanitizePhoneInput(orderPhone);
+    if (contactPhone) sanitizePhoneInput(contactPhone);
+
+    // Set minimum date to today
+    const orderDate = document.getElementById('orderDate');
+    if (orderDate) {
+      const today = new Date().toISOString().split('T')[0];
+      orderDate.setAttribute('min', today);
+      orderDate.value = today;
+    }
+
+    // 7. WHATSAPP ORDER SUBMISSION
+    const orderForm = document.getElementById('orderForm');
+    if (orderForm) {
+      orderForm.addEventListener('submit', function(e) {
+        e.preventDefault();
+
+        // Clear previous errors
+        document.querySelectorAll('.form-error-msg').forEach(el => el.textContent = '');
+        document.querySelectorAll('.form-input, .form-select').forEach(el => el.classList.remove('is-invalid'));
+
+        const name = document.getElementById('orderName').value.trim();
+        const phone = document.getElementById('orderPhone').value.trim();
+        const dish = document.getElementById('orderDish').value;
+        const quantity = document.getElementById('orderQuantity').value.trim();
+        const date = document.getElementById('orderDate').value;
+        const timeSelect = document.getElementById('orderTime').value;
+        const otherTime = document.getElementById('otherTimeInput') ? document.getElementById('otherTimeInput').value.trim() : '';
+        const preference = document.getElementById('orderPreference').value;
+        const address = document.getElementById('orderAddress').value.trim();
+        const instructions = document.getElementById('orderInstructions').value.trim();
+
+        let isValid = true;
+
+        if (!name) {
+          document.getElementById('nameError').textContent = 'Please provide your full name.';
+          document.getElementById('orderName').classList.add('is-invalid');
+          isValid = false;
+        }
+
+        // Phone validation (ensure at least 9 numeric digits)
+        const digitsOnly = phone.replace(/\D/g, '');
+        if (!phone || digitsOnly.length < 9) {
+          document.getElementById('phoneError').textContent = 'Please enter a valid phone number (numbers only).';
+          document.getElementById('orderPhone').classList.add('is-invalid');
+          isValid = false;
+        }
+
+        if (!dish) {
+          document.getElementById('dishError').textContent = 'Please select a dish.';
+          document.getElementById('orderDish').classList.add('is-invalid');
+          isValid = false;
+        }
+
+        if (!quantity || parseInt(quantity, 10) < 1) {
+          document.getElementById('quantityError').textContent = 'Please enter a valid quantity.';
+          document.getElementById('orderQuantity').classList.add('is-invalid');
+          isValid = false;
+        }
+
+        if (!date) {
+          document.getElementById('dateError').textContent = 'Please select your preferred date.';
+          document.getElementById('orderDate').classList.add('is-invalid');
+          isValid = false;
+        }
+
+        let finalTime = timeSelect;
+        if (!timeSelect) {
+          document.getElementById('timeError').textContent = 'Please choose a preferred time.';
+          document.getElementById('orderTime').classList.add('is-invalid');
+          isValid = false;
+        } else if (timeSelect === 'Other Time') {
+          if (!otherTime) {
+            document.getElementById('otherTimeError').textContent = 'Please specify your preferred time.';
+            document.getElementById('otherTimeInput').classList.add('is-invalid');
+            isValid = false;
+          } else {
+            finalTime = otherTime;
+          }
+        }
+
+        if (!address) {
+          document.getElementById('addressError').textContent = 'Please specify your location or address in Islamabad.';
+          document.getElementById('orderAddress').classList.add('is-invalid');
+          isValid = false;
+        }
+
+        if (!isValid) {
+          return;
+        }
+
+        // Generate WhatsApp message
+        let msg = `*Amina's Kitchen — Meal Order*\n`;
+        msg += `------------------------------------\n`;
+        msg += `*Name:* ${name}\n`;
+        msg += `*Phone:* ${phone}\n`;
+        msg += `*Dish:* ${dish}\n`;
+        msg += `*Quantity:* ${quantity}\n`;
+        msg += `*Date:* ${date}\n`;
+        msg += `*Preferred Time:* ${finalTime}\n`;
+        msg += `*Preference:* ${preference}\n`;
+        msg += `*Address / Area:* ${address}\n`;
+        if (instructions) {
+          msg += `*Special Instructions:* ${instructions}\n`;
+        }
+        msg += `------------------------------------\n`;
+        msg += `Sent via Amina's Kitchen Islamabad Website`;
+
+        const whatsappNumber = '923198442326';
+        const encodedUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(msg)}`;
+
+        window.open(encodedUrl, '_blank', 'noopener,noreferrer');
+      });
+    }
+
+    // 8. CONTACT FORM SUBMISSION
+    const contactForm = document.getElementById('contactForm');
+    if (contactForm) {
+      contactForm.addEventListener('submit', function(e) {
+        e.preventDefault();
+
+        const name = document.getElementById('contactName').value.trim();
+        const phone = document.getElementById('contactPhone').value.trim();
+        const msgText = document.getElementById('contactMessage').value.trim();
+
+        document.getElementById('contactNameError').textContent = '';
+        document.getElementById('contactPhoneError').textContent = '';
+        document.getElementById('contactMsgError').textContent = '';
+
+        let valid = true;
+        if (!name) {
+          document.getElementById('contactNameError').textContent = 'Please enter your name.';
+          valid = false;
+        }
+
+        const digits = phone.replace(/\D/g, '');
+        if (!phone || digits.length < 9) {
+          document.getElementById('contactPhoneError').textContent = 'Please enter a valid phone number (numbers only).';
+          valid = false;
+        }
+
+        if (!msgText) {
+          document.getElementById('contactMsgError').textContent = 'Please write your message or inquiry.';
+          valid = false;
+        }
+
+        if (!valid) return;
+
+        let inquiry = `*Amina's Kitchen — Customer Inquiry*\n`;
+        inquiry += `*Name:* ${name}\n`;
+        inquiry += `*Phone:* ${phone}\n`;
+        inquiry += `*Inquiry:* ${msgText}\n`;
+        inquiry += `Location: Islamabad, Pakistan`;
+
+        const whatsappNumber = '923198442326';
+        const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(inquiry)}`;
+        window.open(url, '_blank', 'noopener,noreferrer');
+      });
+    }
+
+    // 9. MOBILE MENU TOGGLE
+    const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+    const mobileNavDrawer = document.getElementById('mobileNavDrawer');
+
+    if (mobileMenuBtn && mobileNavDrawer) {
+      mobileMenuBtn.addEventListener('click', function() {
+        const isExpanded = this.getAttribute('aria-expanded') === 'true';
+        this.setAttribute('aria-expanded', !isExpanded);
+        mobileNavDrawer.classList.toggle('is-active');
+      });
+
+      // Close drawer when link is clicked
+      document.querySelectorAll('.mobile-nav-link').forEach(link => {
+        link.addEventListener('click', () => {
+          mobileNavDrawer.classList.remove('is-active');
+          mobileMenuBtn.setAttribute('aria-expanded', 'false');
+        });
+      });
+    }
+
+    // 10. INITIALIZE DEFAULT VIEW (Week 1)
+    renderWeekMenu(1);
+  </script>
+</body>
+</html>
